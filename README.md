@@ -1,8 +1,6 @@
 Wiki_Epicodus
 ================
+**Description**
+Something simple to practice Rails without generators
 
-## Rails without generators
-
-**Description**: 
-
-If you see something odd, [report an issue]
+If you see something odd, [report an issue](https://github.com/freqn/wiki_epicodus/issues/new)
