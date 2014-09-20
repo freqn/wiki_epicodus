@@ -1,0 +1,14 @@
+%h1 New contact
+= if @contact.errors.any?
+  %h3 Please fix these errors:
+  %ul
+    = @contact.errors.full_messages.each do |message|
+      %li= message
+%form{action: "/contacts", method: "post"}
+  %label{for: "contact_name"} Name
+  %input#contact_name{name:"name", type: "text", value: @contact.name}
+  %label{for: "contact_phone"} Phone
+  %input#contact_phone{name:  "phone", type: "text", value:  @contact.phone}
+  %label{for:  "contact_email"} Email
+  %input#contact_email{name:  "email", type: "text", value:  @contact.email}
+  %button Create contact

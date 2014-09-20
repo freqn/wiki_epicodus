@@ -1,0 +1,9 @@
+%h1= @contact.name
+%p Phone: #{@contact.phone}
+%p Email: #{@contact.email}
+%p
+  = link_to "Edit", "/contacts/#{@contact.id}/edit"
+  = link_to "Delete", "/contacts/#{@contact.id}", method: :delete
+%p 
+  = link_to "Return to Contacts", "./"
+
