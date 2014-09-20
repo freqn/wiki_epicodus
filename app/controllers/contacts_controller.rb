@@ -44,6 +44,10 @@ class ContactsController < ApplicationController
   def destroy
     @contact = Contact.find(params[:id])
     @contact.destroy
-    redirect_to("/contacts")
+    redirect_to("/contacrequire "test/unit"
+
+    require "tc_test_case_file"
+    require "tc_test_case_file"
+    ")
   end
 end
