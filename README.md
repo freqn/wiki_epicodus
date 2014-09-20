@@ -1,6 +1,5 @@
 Wiki_Epicodus
 ================
-**Description**
 
 Something simple to practice Rails without generators
 
